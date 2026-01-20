@@ -1,16 +1,98 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# 🔐 Login Form (React + Material UI)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A simple and responsive **Login Form UI** built using **React JS** and **Material UI (MUI)**.  
+This project displays a clean login card with input fields for **Email, Username, and Password**, along with a login button.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Features
 
-## Expanding the ESLint configuration
+✅ Modern UI built with **Material UI (MUI)**  
+✅ Input Fields:
+- Email
+- Username
+- Password  
+✅ Responsive Card layout  
+✅ Clean and minimal design  
+✅ Fully centered form on screen  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖼️ Screenshots
+
+### ✅ 1) Login Form (Empty)
+![Login Form Empty Screenshot](./ss.png)
+
+### ✅ 2) Login Form (Filled)
+![Login Form Filled Screenshot](./ss2.png)
+
+---
+
+## 🛠️ Tech Stack Used
+
+- **React JS**
+- **Material UI (MUI)**
+- **JavaScript**
+- **CSS**
+
+---
+
+## 📂 Project Structure
+
+```
+
+src/
+│── App.jsx
+│── App.css
+│── ss.png
+│── ss2.png
+
+````
+
+---
+
+## ▶️ How to Run This Project
+
+### 1️⃣ Clone the Repository
+```bash
+git clone <your-repo-link>
+````
+
+### 2️⃣ Open Project Folder
+
+```bash
+cd your-project-folder
+```
+
+### 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Start Development Server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📌 UI Components Used (MUI)
+
+* **Card**
+* **CardContent**
+* **Typography**
+* **TextField**
+* **Button**
+
+---
+
+## ✅ Author
+
+👤 **Your Name Here**
+📌 React Mini Project
+
+

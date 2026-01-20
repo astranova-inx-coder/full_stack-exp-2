@@ -1,16 +1,96 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📌 Responsive Navigation Bar (React)
 
-Currently, two official plugins are available:
+This project demonstrates how to create a **responsive Navigation Bar** in React using a **UI component library**.  
+It includes a reusable `MyNavbar` component and displays the **Aim and Procedure** of the experiment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✅ Responsive Navbar using a component library  
+✅ Reusable `MyNavbar` component  
+✅ Navigation bar displayed on top of the page  
+✅ Simple content layout using Bootstrap container  
+✅ Clean UI with headings and ordered list  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖼️ Screenshot
+
+Project Output:
+
+![Responsive Navbar Screenshot](./ss.png)
+
+---
+
+## 🛠️ Tech Stack Used
+
+- **React JS**
+- **Component Library Navbar**
+- **Bootstrap**
+- **JavaScript**
+- **CSS**
+
+---
+
+## 📂 Project Structure
+
+```
+
+src/
+│── App.jsx
+│── components/
+│    └── MyNavbar.jsx
+│── ss.png
+
+````
+
+---
+
+## ▶️ How to Run This Project
+
+### 1️⃣ Clone the Repository
+```bash
+git clone <your-repo-link>
+````
+
+### 2️⃣ Open Project Folder
+
+```bash
+cd your-project-folder
+```
+
+### 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Start Development Server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📌 Experiment Details
+
+### ✅ Aim
+
+To design a responsive navigation bar using a UI component library.
+
+### ✅ Procedure
+
+1. Import Navbar component.
+2. Add navigation links.
+3. Ensure responsiveness.
+
+---
+
+## ✅ Author
+
+👤 **Your Name Here**
+📌 React Mini Project
+

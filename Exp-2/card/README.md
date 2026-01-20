@@ -1,16 +1,94 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🛍️ Shopping List App (React)
 
-Currently, two official plugins are available:
+A simple and responsive **Shopping List Application** built using **React JS**.  
+This project displays a list of products with their **image, name, description, and price** in a clean card layout using Bootstrap styling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✅ Displays multiple shopping products  
+✅ Each item shows: **Image + Product Name + Price**  
+✅ Responsive layout using Bootstrap grid  
+✅ Clean UI with card design  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖼️ Screenshot
+
+Here is the output of the project:
+
+![Shopping List Screenshot](./ss.png)
+
+---
+
+## 🛠️ Tech Stack Used
+
+- **React JS**
+- **Bootstrap**
+- **JavaScript**
+- **CSS**
+
+---
+
+## 📂 Project Structure
+
+```
+
+src/
+│── App.jsx
+│── ShoppingList.jsx
+│── laptop.jpg
+│── mobile.jpg
+│── shoes.jpg
+│── ss.png
+
+````
+
+---
+
+## ▶️ How to Run This Project
+
+### 1️⃣ Clone the Repository
+```bash
+git clone <your-repo-link>
+````
+
+### 2️⃣ Go to Project Folder
+
+```bash
+cd your-project-folder
+```
+
+### 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Start the Project
+
+```bash
+npm run dev
+```
+
+---
+
+## 📌 Output Description
+
+This project renders a shopping list with three products:
+
+* 💻 Laptop — ₹60,000
+* 📱 Mobile — ₹25,000
+* 👟 Shoes — ₹2,500
+
+Each product is shown with an image above a stylish card that includes product details.
+
+---
+
+## ✅ Author
+
+👤 **Your Name Here**
+📌 React Mini Project
+
